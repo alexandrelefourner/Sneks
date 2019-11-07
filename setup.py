@@ -2,6 +2,6 @@ from setuptools import setup
 
 setup(name='sneks',
       version='0.0.1',
-      install_requires=['gym','numpy','opencv-python'],
+      install_requires=['gym','numpy','opencv-python', 'scikit-learn', 'matplotlib'],
       packages=['sneks']
 )
