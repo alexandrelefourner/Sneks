@@ -53,7 +53,7 @@ class World:
         self.DEAD_REWARD = -1
         self.MOVE_REWARD = 0
         self.EAT_REWARD = 1
-        self.FOOD = 255
+        self.FOOD = 65
         self.DIRECTIONS = Snek.DIRECTIONS
         # Init a numpy matrix with zeros of predefined size
         self.size = size
